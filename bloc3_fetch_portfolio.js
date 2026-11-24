@@ -1,0 +1,1 @@
+fetch("data/portfolio.json?"+Date.now()).then(function(r){return r.json()}).then(function(j){if(j.generated>((S&&S.ts)||"")){A=j.A;M=j.M;window._PF=j;window._DIV=j.D||{};window._FRAIS=j.F||{};render()}}).catch(function(){});
